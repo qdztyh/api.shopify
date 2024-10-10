@@ -1,0 +1,30 @@
+{
+  "name": "api.shopify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.21.1",
+    "@shopify/shopify-api": "^11.2.0",
+    "@shopify/storefront-api-client": "^1.0.1",
+    "groq": "^3.52.4",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.13",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5.5.4"
+  }
+}
